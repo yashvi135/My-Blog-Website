@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navigation {
+  margin-top: 30px;
+  
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  font-size: 25px;
+  display: flex;
+  font-family: var(--font1);
+}
+.nav-left span img{
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 8px;
+  
+}
+.nav-left span {
+  font-size: 25px;
+  padding-top: 2px;
+  color: rgb(100, 14, 37);
+}
+.content {
+  display: flex;
+  /*background-color: rgb(180, 181, 221);*/
+  height: 100%;
+  margin-top: 32px;
+  padding: 9px;
+  /*background-image: url('../img/home.jpg');*/
+  position: relative;
+}
+.content::after {
+  content: "";
+  background-image: url("../img/home.jpg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.2;
+}
+
+.content-left {
+  font-family: var(--font2);
+  /* font-weight: bolder;*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  z-index: 1;
+}
+.content-left h1 {
+  font-weight: bolder;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  height: 255px;
+  border: 2px solid black;
+  border-radius: 400px;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  /*transition: all 0.3s ease-in-out;*/
+}
+.nav-left ul li a:hover {
+  color: rgb(172, 47, 88);
+}
+.homearticles {
+  background-color: rgb(255, 240, 251);
+  padding-top: 14px;
+  margin-top: 23px;
+  position: relative;
+  flex-direction: row;
+}
+.homearticles h2{
+  margin-top: 23px;
+}
+.year-box{
+  position: absolute;
+  width: 100px;
+  height: 400px; 
+  right: 100px;
+  top: 100px;
+  width: 234px;
+  height: 255px;
+  font-size: 18px;
+
+}
+.year-box div{
+  margin: 12px 0px;
+}
+.homearticle {
+  display: flex;
+  padding: 0px;
+}
+
+.homearticle img {
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+.homearticle-content {
+  align-self: center;
+  padding: 0px 25px;
+  font-family: var(--font1);
+}
+.homearticle-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+  height: 50px;
+  background-color: rgb(20, 20, 24);
+  color: rgb(248, 244, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer a {
+  color: white;
+}

@@ -1,0 +1,39 @@
+.post-img{
+    height: 404px;
+    overflow: hidden;
+    margin-top: 14px;
+}
+.post-img img{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.blogspot-content{
+    margin-top: 14px;
+    margin-bottom: 14px;
+   /* background-color: blueviolet*/;
+}
+.blogspot-content  h1{
+   text-align: center;
+}
+.blogspot-content p{
+    font-family: var(--font2);
+    font-size: 20px;
+}
+.blogspot-meta{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.author-info{
+    margin: 12px;
+}
+.author-info div{
+    padding: 4px 6px;
+    font-family: var(--font-2);
+}
+.social{
+    padding: 30px;
+    cursor: pointer;
+}

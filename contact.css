@@ -1,0 +1,22 @@
+.contact-content {
+  height: 395px;
+  height: 80vh;
+  display: block;
+  /*background-color: rgb(180, 181, 221);*/
+
+  margin-top: 32px;
+  padding: 9px;
+  /*background-image: url('../img/home.jpg');*/
+  position: relative;
+  overflow: hidden;
+}
+.contact-content::after {
+  content: "";
+  background-image: url("../img/home.jpg");
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.2;
+  z-index: -1;
+}
